@@ -1,9 +1,9 @@
 import static java.lang.System.out;
 
 public class PlaceToLive {
-    private String address;
-    private int numberOfBedrooms;
-    private double area;
+    private String address; //адрес
+    private int numberOfBedrooms; //количество комнат
+    private double area; //общая площадь помещения
 
 
     public void setAddress(String addressIn) {
@@ -26,7 +26,7 @@ public class PlaceToLive {
     }
     public double priceForMeter(double priceForRoom){
         return priceForRoom/area;
-    }
+    } //цена за метр квадратный
 
 
 

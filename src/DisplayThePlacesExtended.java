@@ -1,3 +1,5 @@
+//отображение данных о домах
+
 import static java.lang.System.out;
 
 public class DisplayThePlacesExtended {

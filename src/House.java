@@ -1,7 +1,9 @@
+//дочерний класс который описывает постройки типа Частный Дом
+
 public class House extends PlaceToLive {
 
-    private double paymentIpotekaPerMonth;
-    private double taxPerYear;
+    private double paymentIpotekaPerMonth;  //оплата за ипотеку в месяц
+    private double taxPerYear; //налог в год
 
 
     public void setPaymentIpotekaPerMonth(double paymentIpotekaPerMonthIn){
@@ -19,7 +21,7 @@ public class House extends PlaceToLive {
     }
     public double wholePaymentPerMonth(){
         return paymentIpotekaPerMonth + taxPerYear / 12;
-    }
+    } //Оплата в месяц за все платежи (ипотека + налог)
 
 
 
