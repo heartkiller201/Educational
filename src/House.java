@@ -7,14 +7,14 @@ public class House extends PlaceToLive {
 
 
     public void setPaymentIpotekaPerMonth(double paymentIpotekaPerMonthIn){
-        paymentIpotekaPerMonthIn = paymentIpotekaPerMonth;
+         paymentIpotekaPerMonth = paymentIpotekaPerMonthIn;
     }
     public double getPaymentIpotekaPerMonth(){
         return paymentIpotekaPerMonth;
     }
 
     public void setTaxPerYear(double taxPerYearIn){
-        taxPerYearIn = taxPerYear;
+        taxPerYear = taxPerYearIn;
     }
     public double getTaxPerYear(){
         return taxPerYear;
